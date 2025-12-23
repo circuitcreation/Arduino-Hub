@@ -1,0 +1,897 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f7; 
+}
+.upper-div{
+    width: 100%;
+    height: 55px;
+    background-color:  #00979D; 
+    margin-top: 0%;
+    padding-top: 10px;
+}
+.logo{
+    width: 45px;
+    margin-left: 20px;
+    float: left;
+    border-radius: 100%;
+}
+.upper-div p{
+    color: white;
+    font-size: 25px;
+    margin-left: 75px;
+    margin-top: 7px;
+    font-weight: bold;
+}
+.upper-buttons{
+    float: right;
+    margin-top: 7px;
+    margin-right: 380px;
+}
+.btn-u{
+    width: 80px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    color:#f4f7f7;
+    border: none;
+    margin-right: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn-u:hover {
+    color: white;
+    text-shadow: 0 0 10px #f4f7f7;
+    transform: translateY(-3px);
+}
+
+.a{
+    text-decoration: none;
+    color: #f4f7f7;
+}
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.btn-primary {
+  display: inline-block;
+  margin-top: 16px;
+  background-color: #00979D;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn-primary:hover {
+  box-shadow: 0 0 10px #00979D;
+}
+.btn-sta{
+    width: 150px;
+    height: 35px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    background-color: #00979D;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    font-family:Arial, sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn-sta:hover {
+    box-shadow: 0 0 10px #00979D;
+}
+.aa{
+    text-decoration: none;
+    color: white;
+}
+.features {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+
+}
+
+.fe-img{
+    width: 300px;
+    border-radius: 8px;
+}
+#fee-img{
+    width: 350px;
+    border-radius: 8px;
+}
+.new-ard{
+    float: right;
+    width: 320px;
+    border-radius: 8px;
+    margin-top: -10px;
+}
+.box {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.box:hover{
+  transform: scale(1.02);
+}
+.path {
+  background-color: #ffffff;
+  margin: 40px auto;
+  padding: 30px 24px;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+}
+
+.path h2 {
+  margin-bottom: 8px;
+  color: #00979D; /* Arduino blue */
+}
+
+.path p {
+  margin-bottom: 16px;
+  color: #555;
+}
+
+.path ol {
+  padding-left: 20px;
+  list-style-position: inside;
+  font-weight: 500;
+}
+
+.path li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+.new-a{
+  color: #333;
+  text-decoration: none;
+}
+.beginner {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.intro h1 {
+  color: #00979D;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  color: #555;
+  font-size: 17px;
+}
+.who {
+  margin-top: 50px;
+}
+
+.who h2 {
+  color: #00979D;
+  margin-bottom: 10px;
+}
+
+.who p {
+  color: #555;
+  margin-bottom: 14px;
+}
+
+.who ul {
+  padding-left: 20px;
+}
+
+.who li {
+  margin-bottom: 8px;
+  color: #333;
+}
+.needs {
+  margin-top: 50px;
+}
+
+.needs h2 {
+  color: #00979D;
+  margin-bottom: 10px;
+}
+
+.needs p {
+  color: #555;
+  margin-bottom: 14px;
+}
+
+.needs ul {
+  padding-left: 20px;
+}
+
+.needs li {
+  margin-bottom: 8px;
+  color: #333;
+}
+.projects-list {
+  margin-top: 50px;
+}
+
+.projects-list h2 {
+  color: #00979D;
+  margin-bottom: 8px;
+}
+
+.projects-list p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.project {
+  background-color: #ffffff;
+  padding: 18px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.project:hover{
+  transform: scale(1.01);
+}
+
+.project h3 {
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.project p {
+  margin: 0;
+  color: #555;
+}
+.mistakes {
+  margin-top: 50px;
+}
+
+.mistakes h2 {
+  color: #00979D;
+  margin-bottom: 12px;
+}
+
+.mistakes ul {
+  padding-left: 20px;
+}
+
+.mistakes li {
+  margin-bottom: 8px;
+  color: #333;
+}
+.what-is {
+  margin-top: 40px;
+}
+
+.what-is h2 {
+  color: #00979D;
+  margin-bottom: 8px;
+}
+
+.what-is p {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.learn-more {
+  color: #00979D;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+}
+.next-steps {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.next-steps h2 {
+  color: #00979D;
+  margin-bottom: 10px;
+}
+
+.next-steps p {
+  color: #555;
+  margin-bottom: 14px;
+}
+
+.next-steps ul {
+  padding-left: 20px;
+}
+
+.next-steps li {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.projects-page {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.projects-intro h1 {
+  color: #00979D;
+  margin-bottom: 8px;
+}
+
+.projects-intro p {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+.project-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+}
+
+.project-card h3 {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.project-card p {
+  color: #555;
+  margin-bottom: 14px;
+}
+.project-card a:hover {
+  text-decoration: underline;
+}
+.project-a{
+    text-decoration: none;
+}
+.project-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.ard-imgg{
+  width: 100%;
+  border-radius: 8px;
+}
+
+
+.logo-link{
+    text-decoration: none;
+}
+
+
+
+
+/* Difficulty badge */
+.difficulty {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.--beginner {
+  background-color: #e0f7f7;
+  color: #00979D;
+}
+.project-detail {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.project-header h1 {
+  color: #00979D;
+  margin-bottom: 10px;
+}
+
+.project-header p {
+  color: #555;
+  font-size: 17px;
+  margin-bottom: 12px;
+}
+.project-section {
+  margin-top: 40px;
+}
+
+.project-section h2 {
+  color: #00979D;
+  margin-bottom: 14px;
+}
+
+.components-list {
+  list-style: disc;
+  padding-left: 20px;
+  color: #555;
+}
+
+.components-list li {
+  margin-bottom: 6px;
+  font-size: 16px;
+}
+.project-section {
+  margin-top: 40px;
+  max-width: 800px;
+}
+
+.project-section h2 {
+  margin-bottom: 10px;
+}
+
+.project-section p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.project-section ol {
+  padding-left: 20px;
+  line-height: 1.8;
+}
+.circuit-image {
+  display: block;
+  max-width: 100%;
+  width: 600px;
+  margin: 25px auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+}
+
+
+.project-section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.project-section h2 {
+    color: #00979D;
+    margin-bottom: 15px;
+}
+
+.code-block {
+    background: #0f172a;           /* dark code background */
+    color: #e5e7eb;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-x: auto;
+    font-size: 15px;
+    line-height: 1.6;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.code-block code {
+    font-family: "Fira Code", monospace;
+    white-space: pre;
+}
+
+.project-section h3 {
+  margin-top: 20px;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.project-section p {
+  color: #555;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+.project-section code {
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 15px;
+}
+.mistakes-list {
+  padding-left: 20px;
+  color: #555;
+  line-height: 1.7;
+}
+
+.mistakes-list li {
+  margin-bottom: 10px;
+}
+
+.mistakes-list code {
+  background-color: #f1f5f9;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+.project-section ul {
+  list-style: disc;
+  padding-left: 20px;
+  line-height: 1.7;
+  color: #555;
+}
+
+.project-section li {
+  margin-bottom: 8px;
+}
+.button-exp{
+    background-color: #00979D;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: none;
+}
+.button-exp:hover {
+    box-shadow: 0 0 10px #00979D;
+}
+.coming-soon {
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #e0f7f7;
+    border-radius: 10px;
+}
+
+/* ------------------------------------------------------------------
+   Responsive adjustments
+   - Keep all current desktop rules untouched
+   - Add overrides only for smaller viewports (tablets / phones)
+   - Goals: header stacks properly, floats removed on small screens,
+     images become fluid, feature boxes stack, paddings shrink.
+   ------------------------------------------------------------------ */
+
+/* Make images responsive by default on small screens */
+img, .fe-img, #fee-img, .new-ard, .ard-imgg, .circuit-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Tablet and small laptop and large-phone fallback */
+/* Specific layout for larger tablets / small desktops (901px - 1024px)
+   Keep desktop and other media unchanged. This targets widths where
+   we want the header to show logo+title on the left and buttons on the right. */
+@media (min-width: 901px) and (max-width: 1024px) {
+  .upper-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    padding: 10px 18px;
+    box-sizing: border-box;
+    height: auto;
+  }
+
+  /* Group logo and site title together on the left */
+  .logo-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    order: 0;
+  }
+
+  .logo {
+    width: 48px;
+    margin: 0;
+    float: none;
+    flex: 0 0 auto;
+  }
+
+  .upper-div p {
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: left;
+    flex: 0 1 auto;
+  }
+
+  /* Keep the menu buttons grouped on the right */
+  .upper-buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 0;
+    float: none;
+    order: 1;
+    flex: 0 0 auto;
+  }
+
+  .btn-u {
+    padding: 8px 12px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 900px) {
+  /* Header: make a predictable flex layout on tablet widths */
+  .upper-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 8px 14px;
+    box-sizing: border-box;
+    height: auto;
+  }
+
+  /* Place logo + site title together on the left, menu buttons on the right */
+  .logo-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    order: 0; /* keep left */
+    text-decoration: none;
+  }
+
+  .logo {
+    width: 44px;
+    margin: 0;
+    float: none;
+    flex: 0 0 auto;
+  }
+
+  /* Title should sit immediately to the right of the logo and align left */
+  .upper-div p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: left;
+    flex: 0 1 auto;
+  }
+
+  .upper-buttons {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin: 0;
+    float: none;
+    order: 1; /* push menu to the right */
+    flex: 0 0 auto;
+  }
+
+  .btn-u {
+    width: auto;
+    height: 34px;
+    padding: 6px 10px;
+    margin-right: 0;
+  }
+
+  /* Hero spacing reduction for smaller widths */
+  .hero {
+    padding: 40px 16px;
+  }
+
+  /* Features: allow wrapping so cards flow naturally on narrower widths */
+  .features {
+    display: flex;
+    gap: 16px;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+
+  /* Boxes become flex items; remove floats so they align in the flex container */
+  .box {
+    width: 254px;
+    max-width: 100%;
+    float: none;
+    box-sizing: border-box;
+  }
+
+  /* Ensure feature images fit their containers */
+  .fe-img, #fee-img, .new-ard {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* Path layout: avoid small, fragile floats and let content flow under images */
+  .path img{
+    float: right;
+    display: block;
+    width: 100%;
+    max-width: 290px;
+  }
+
+  .path ol {
+    padding-left: 0px;
+    max-width: 420px;
+  }
+
+  /* Path and container paddings shrink to fit */
+  .path, .beginner, .projects-page, .project-detail, .project-section {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 12px;
+    margin-right: 12px;
+    box-sizing: border-box;
+  }
+
+  /* Remove floats used for two-column layouts so blocks stack */
+  .new-ard, .projects-list, .who, .needs {
+    float: none;
+    width: 100%;
+  }
+
+  /* Make project cards and project sections slightly more compact */
+  .project, .project-card {
+    padding: 14px;
+  }
+
+  /* Code blocks remain usable on small screens */
+  .code-block {
+    font-size: 14px;
+    padding: 14px;
+  }
+
+  /* Buttons scale down slightly */
+  .btn-sta, .button-exp {
+    padding: 8px 12px;
+    font-size: 15px;
+  }
+
+}
+
+/* Phones and very small screens */
+@media (max-width: 480px) {
+  /* Header: stack and center everything, place logo visually on top */
+  .upper-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 8px 12px;
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  /* Force visual ordering: logo first, then title, then buttons */
+  .logo {
+    order: -1; /* appear above title */
+    margin: 0 0 6px 0;
+    display: block;
+    width: 54px; /* slight bump so logo is visible on tiny screens */
+    height: auto;
+    float: left;
+  }
+
+  /* Ensure the title centers and doesn't keep any left margin/float */
+  .upper-div p {
+    order: 0;
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    float: left;
+    line-height: 1.1;
+    margin-top: 0px;
+    margin-left: 5px;
+  }
+
+  /* Buttons: center and allow wrapping, put after title */
+  .upper-buttons {
+    order: 1;
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    float: none;
+    padding: 6px 0 4px 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+  }
+
+  .btn-u {
+    width: auto;
+    padding: 6px 10px;
+    font-size: 13px;
+    margin-right: 0;
+  }
+
+  /* Features: stack vertically and center content */
+  .features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 12px;
+    gap: 12px;
+    box-sizing: border-box;
+  }
+
+  /* Boxes: full width but bounded by a max-width so they look tidy */
+  .box {
+    width: 100%;
+    max-width: 380px;
+    margin: 8px auto;
+    float: none;
+    box-sizing: border-box;
+  }
+
+  /* Ensure path and main containers center and don't overflow */
+  .path, .beginner, .projects-page, .project-detail, .project-section {
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 12px auto;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
+  /* Path images shouldn't float on small screens */
+  .path img {
+    float: none;
+    display: block;
+    margin: 12px auto;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  /* Ensure `.new-ard` sits at the bottom of its parent container on very small screens */
+  .new-ard {
+    order: 99;              /* place it after other flex children */     /* center horizontally */
+    width: 100%;
+    max-width: 320px;      /* keep a sensible max so it doesn't stretch too wide */   /* small gap above, auto horizontal centering */
+    float:right;
+    display: block;
+    box-sizing: border-box;
+  }
+
+  /* Normalize headings and paragraph spacing for readability */
+  .project-section h2, .who h2, .needs h2, .projects-intro h1, .intro h1 {
+    font-size: 20px;
+    margin: 8px 0;
+  }
+
+  .path{
+    width: 90%;
+  }
+  .project-section p, .intro p, .project p, .who p, .needs p {
+    font-size: 15px;
+    margin: 6px 0;
+  }
+
+  /* Keep code blocks usable on very small screens */
+  .code-block {
+    font-size: 13px;
+    padding: 12px;
+  }
+
+  /* Slightly smaller badges */
+  .difficulty {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+}
+
+/* Small accessibility improvement: ensure focus outlines remain visible */
+:focus {
+  outline: 3px solid rgba(0,151,157,0.18);
+  outline-offset: 2px;
+}
